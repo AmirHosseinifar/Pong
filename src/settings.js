@@ -8,3 +8,9 @@ export const KEYS = {
   spaceBar: ' ', // we'll use this later...
 };
 
+export const SCORE = {
+  distance: 50,
+  size: 30,
+  topDistance: 20,
+
+}
