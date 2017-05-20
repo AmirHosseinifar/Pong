@@ -92,6 +92,13 @@ export default class Ball {
     ball.setAttributeNS(null, 'fill', 'white');
     svg.appendChild(ball);
 
+    const ball2 = document.createElementNS(SVG_NS, 'circle');
+    ball2.setAttributeNS(null, 'r', this.radius);
+    ball2.setAttributeNS(null, 'cx', this.x);
+    ball2.setAttributeNS(null, 'cy', this.y);
+    ball2.setAttributeNS(null, 'fill', 'white');
+    svg.appendChild(ball2);
+
     const rightGoal = this.x + this.radius >= this.boardWidth;
     const leftGoal = this.x - this.radius <= 0;
 
