@@ -11,6 +11,8 @@
 * Babel
 * ESLint
 * Webpack
+* Visual Studio Code for Mac
+
 
 
 ## Keys
@@ -28,5 +30,5 @@
 * ◀: left
 
 **Extra:**
-* Space bar: pause
+* space bar: pause
 * b: running the second ball
